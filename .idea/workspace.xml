@@ -128,6 +128,7 @@
       <change afterPath="$PROJECT_DIR$/xxljobdemo/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tj-api/src/main/java/com/tianji/api/cache/CategoryCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/tj-api/src/main/java/com/tianji/api/cache/CategoryCache.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tj-api/src/main/java/com/tianji/api/config/FallbackConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/tj-api/src/main/java/com/tianji/api/config/FallbackConfig.java" afterDir="false" />
@@ -525,7 +526,7 @@
       <workItem from="1739678509860" duration="13095000" />
       <workItem from="1739768193622" duration="4114000" />
       <workItem from="1739857252837" duration="326000" />
-      <workItem from="1739857691479" duration="4463000" />
+      <workItem from="1739857691479" duration="4811000" />
     </task>
     <task id="LOCAL-00001" summary="删除订单bug">
       <created>1734835698272</created>
