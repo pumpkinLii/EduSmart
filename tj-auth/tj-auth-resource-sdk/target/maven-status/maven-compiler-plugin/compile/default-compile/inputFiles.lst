@@ -1,0 +1,6 @@
+D:\xm\tianji\tianji\tj-auth\tj-auth-resource-sdk\src\main\java\com\tianji\authsdk\resource\interceptors\UserInfoInterceptor.java
+D:\xm\tianji\tianji\tj-auth\tj-auth-resource-sdk\src\main\java\com\tianji\authsdk\resource\interceptors\FeignRelayUserInterceptor.java
+D:\xm\tianji\tianji\tj-auth\tj-auth-resource-sdk\src\main\java\com\tianji\authsdk\resource\config\ResourceInterceptorConfiguration.java
+D:\xm\tianji\tianji\tj-auth\tj-auth-resource-sdk\src\main\java\com\tianji\authsdk\resource\config\FeignRelayUserAutoConfiguration.java
+D:\xm\tianji\tianji\tj-auth\tj-auth-resource-sdk\src\main\java\com\tianji\authsdk\resource\interceptors\LoginAuthInterceptor.java
+D:\xm\tianji\tianji\tj-auth\tj-auth-resource-sdk\src\main\java\com\tianji\authsdk\resource\config\ResourceAuthProperties.java

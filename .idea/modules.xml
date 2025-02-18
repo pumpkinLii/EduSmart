@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/tj-api/tj-api.iml" filepath="$PROJECT_DIR$/tj-api/tj-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tj-auth/tj-auth.iml" filepath="$PROJECT_DIR$/tj-auth/tj-auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tj-auth/tj-auth-common/tj-auth-common.iml" filepath="$PROJECT_DIR$/tj-auth/tj-auth-common/tj-auth-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tj-auth/tj-auth-gateway-sdk/tj-auth-gateway-sdk.iml" filepath="$PROJECT_DIR$/tj-auth/tj-auth-gateway-sdk/tj-auth-gateway-sdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tj-auth/tj-auth-resource-sdk/tj-auth-resource-sdk.iml" filepath="$PROJECT_DIR$/tj-auth/tj-auth-resource-sdk/tj-auth-resource-sdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tj-auth/tj-auth-service/tj-auth-service.iml" filepath="$PROJECT_DIR$/tj-auth/tj-auth-service/tj-auth-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tj-common/tj-common.iml" filepath="$PROJECT_DIR$/tj-common/tj-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tj-course/tj-course.iml" filepath="$PROJECT_DIR$/tj-course/tj-course.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tj-data/tj-data.iml" filepath="$PROJECT_DIR$/tj-data/tj-data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tj-exam/tj-exam.iml" filepath="$PROJECT_DIR$/tj-exam/tj-exam.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tj-gateway/tj-gateway.iml" filepath="$PROJECT_DIR$/tj-gateway/tj-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tj-learning/tj-learning.iml" filepath="$PROJECT_DIR$/tj-learning/tj-learning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tj-media/tj-media.iml" filepath="$PROJECT_DIR$/tj-media/tj-media.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tj-message/tj-message.iml" filepath="$PROJECT_DIR$/tj-message/tj-message.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tj-message/tj-message-api/tj-message-api.iml" filepath="$PROJECT_DIR$/tj-message/tj-message-api/tj-message-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tj-message/tj-message-domain/tj-message-domain.iml" filepath="$PROJECT_DIR$/tj-message/tj-message-domain/tj-message-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tj-message/tj-message-service/tj-message-service.iml" filepath="$PROJECT_DIR$/tj-message/tj-message-service/tj-message-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tj-pay/tj-pay.iml" filepath="$PROJECT_DIR$/tj-pay/tj-pay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tj-pay/tj-pay-api/tj-pay-api.iml" filepath="$PROJECT_DIR$/tj-pay/tj-pay-api/tj-pay-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tj-pay/tj-pay-domain/tj-pay-domain.iml" filepath="$PROJECT_DIR$/tj-pay/tj-pay-domain/tj-pay-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tj-pay/tj-pay-service/tj-pay-service.iml" filepath="$PROJECT_DIR$/tj-pay/tj-pay-service/tj-pay-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tj-promotion/tj-promotion.iml" filepath="$PROJECT_DIR$/tj-promotion/tj-promotion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tj-remark/tj-remark.iml" filepath="$PROJECT_DIR$/tj-remark/tj-remark.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tj-search/tj-search.iml" filepath="$PROJECT_DIR$/tj-search/tj-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tj-trade/tj-trade.iml" filepath="$PROJECT_DIR$/tj-trade/tj-trade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tj-user/tj-user.iml" filepath="$PROJECT_DIR$/tj-user/tj-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tjxt.iml" filepath="$PROJECT_DIR$/tjxt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xxljobdemo/xxljobdemo.iml" filepath="$PROJECT_DIR$/xxljobdemo/xxljobdemo.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,7 @@
+D:\xm\tianji\tianji\tj-gateway\src\main\java\com\tianji\gateway\config\AuthProperties.java
+D:\xm\tianji\tianji\tj-gateway\src\main\java\com\tianji\gateway\exception\handler\GatewayExceptionHandler.java
+D:\xm\tianji\tianji\tj-gateway\src\main\java\com\tianji\gateway\GatewayApplication.java
+D:\xm\tianji\tianji\tj-gateway\src\main\java\com\tianji\gateway\filter\AccountAuthFilter.java
+D:\xm\tianji\tianji\tj-gateway\src\main\java\com\tianji\gateway\swagger\GatewaySwaggerResourceProvider.java
+D:\xm\tianji\tianji\tj-gateway\src\main\java\com\tianji\gateway\filter\RequestIdRelayFilter.java
+D:\xm\tianji\tianji\tj-gateway\src\main\java\com\tianji\gateway\swagger\SwaggerResourceController.java

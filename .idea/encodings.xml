@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/tj-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tj-auth/tj-auth-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tj-auth/tj-auth-gateway-sdk/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tj-auth/tj-auth-resource-sdk/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tj-auth/tj-auth-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tj-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tj-course/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tj-data/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tj-exam/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tj-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tj-learning/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tj-media/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tj-message/tj-message-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tj-message/tj-message-domain/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tj-message/tj-message-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tj-pay/tj-pay-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tj-pay/tj-pay-domain/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tj-pay/tj-pay-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tj-promotion/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tj-remark/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tj-search/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tj-trade/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tj-user/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxljobdemo/src/main/java" charset="UTF-8" />
+  </component>
+</project>

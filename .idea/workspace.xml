@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="31430abb-5e4e-427a-8f41-e0e6dc7c2ed8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tj-api/src/main/java/com/tianji/api/client/promotion/PromotionClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-api/src/main/java/com/tianji/api/client/promotion/fallback/PromotionClientFallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-api/src/main/java/com/tianji/api/client/remark/RemarkClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-api/src/main/java/com/tianji/api/client/remark/fallback/RemarkClientFallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-api/src/main/java/com/tianji/api/dto/promotion/CouponDiscountDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-api/src/main/java/com/tianji/api/dto/promotion/OrderCouponDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-api/src/main/java/com/tianji/api/dto/promotion/OrderCourseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/config/MybatisConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/constants/LearningConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/constants/RedisConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/controller/InteractionQuestionAdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/controller/LearningLessonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/controller/SignRecordController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/domain/dto/LearningPlanDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/domain/dto/LearningRecordFormDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/domain/dto/LikedTimesDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/domain/dto/QuestionFormDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/domain/dto/ReplyDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/domain/po/LearningLesson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/domain/query/PointsBoardQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/domain/query/QuestionAdminPageQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/domain/query/QuestionPageQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/domain/query/ReplyPageQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/domain/vo/LearningLessonVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/domain/vo/LearningPlanPageVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/domain/vo/LearningPlanVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/domain/vo/PointsBoardItemVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/domain/vo/PointsBoardSeasonVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/domain/vo/PointsBoardVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/domain/vo/PointsStatisticsVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/domain/vo/QuestionAdminVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/domain/vo/QuestionVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/domain/vo/ReplyVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/domain/vo/SignRecordVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/domain/vo/SignResultVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/enums/LessonStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/enums/PlanStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/enums/PointsRecordType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/enums/QuestionStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/enums/SectionType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/mapper/LearningLessonMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/mq/LearningPointsListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/mq/LessonChangeListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/mq/LikedRecordListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/mq/msg/SignInMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/service/ILearningLessonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/service/ISignRecordService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/service/impl/LearningLessonServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/service/impl/SignRecordServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/task/PointsBoardPersistentHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/utils/DelayTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/utils/LearningRecordDelayTaskHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/java/com/tianji/learning/utils/TableInfoContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/main/resources/mapper/LearningLessonMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-learning/src/test/java/com/itheima/MyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-promotion/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-promotion/src/main/java/com/tianji/promotion/PromotionApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-promotion/src/main/java/com/tianji/promotion/config/PromotionConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-promotion/src/main/java/com/tianji/promotion/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-promotion/src/main/java/com/tianji/promotion/constants/PromotionConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-promotion/src/main/java/com/tianji/promotion/discount/Discount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-promotion/src/main/java/com/tianji/promotion/discount/DiscountStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-promotion/src/main/java/com/tianji/promotion/discount/NoThresholdDiscount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-promotion/src/main/java/com/tianji/promotion/discount/PerPriceDiscount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-promotion/src/main/java/com/tianji/promotion/discount/PriceDiscount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-promotion/src/main/java/com/tianji/promotion/discount/RateDiscount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-promotion/src/main/java/com/tianji/promotion/domain/dto/CouponDiscountDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-promotion/src/main/java/com/tianji/promotion/domain/dto/CouponFormDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-promotion/src/main/java/com/tianji/promotion/domain/dto/CouponIssueFormDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-promotion/src/main/java/com/tianji/promotion/domain/dto/OrderCouponDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-promotion/src/main/java/com/tianji/promotion/domain/dto/OrderCourseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-promotion/src/main/java/com/tianji/promotion/domain/dto/UserCouponDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-promotion/src/main/java/com/tianji/promotion/domain/query/CodeQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-promotion/src/main/java/com/tianji/promotion/domain/query/CouponQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-promotion/src/main/java/com/tianji/promotion/domain/query/UserCouponQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-promotion/src/main/java/com/tianji/promotion/domain/vo/CouponDetailVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-promotion/src/main/java/com/tianji/promotion/domain/vo/CouponPageVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-promotion/src/main/java/com/tianji/promotion/domain/vo/CouponScopeVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-promotion/src/main/java/com/tianji/promotion/domain/vo/CouponVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-promotion/src/main/java/com/tianji/promotion/enums/CouponStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-promotion/src/main/java/com/tianji/promotion/enums/DiscountType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-promotion/src/main/java/com/tianji/promotion/enums/ExchangeCodeStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-promotion/src/main/java/com/tianji/promotion/enums/ObtainType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-promotion/src/main/java/com/tianji/promotion/enums/UserCouponStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-promotion/src/main/java/com/tianji/promotion/handler/PromotionCouponHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-promotion/src/main/java/com/tianji/promotion/service/impl/UserCouponMqServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-promotion/src/main/java/com/tianji/promotion/service/impl/UserCouponRediisonCustomeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-promotion/src/main/java/com/tianji/promotion/service/impl/UserCouponRediisonServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-promotion/src/main/java/com/tianji/promotion/utils/Base32.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-promotion/src/main/java/com/tianji/promotion/utils/CodeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-promotion/src/main/java/com/tianji/promotion/utils/MyLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-promotion/src/main/java/com/tianji/promotion/utils/MyLockAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-promotion/src/main/java/com/tianji/promotion/utils/MyLockFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-promotion/src/main/java/com/tianji/promotion/utils/MyLockStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-promotion/src/main/java/com/tianji/promotion/utils/MyLockType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-promotion/src/main/java/com/tianji/promotion/utils/PermuteUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-promotion/src/main/resources/bootstrap-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-promotion/src/main/resources/bootstrap-local.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-promotion/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-remark/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-remark/src/main/java/com/tianji/remark/RemarkApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-remark/src/main/java/com/tianji/remark/constants/RedisConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-remark/src/main/java/com/tianji/remark/domain/dto/LikeRecordFormDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-remark/src/main/java/com/tianji/remark/domain/dto/LikedTimesDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-remark/src/main/java/com/tianji/remark/service/impl/LikedRecordRedisServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-remark/src/main/java/com/tianji/remark/task/LikedTimesCheckTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-remark/src/main/resources/bootstrap-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-remark/src/main/resources/bootstrap-local.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tj-remark/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxljobdemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxljobdemo/src/main/java/com/tianji/xxljobdemo/XxljobDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxljobdemo/src/main/java/com/tianji/xxljobdemo/XxljobdemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxljobdemo/src/main/resources/bootstrap-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxljobdemo/src/main/resources/bootstrap-local.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xxljobdemo/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tj-api/src/main/java/com/tianji/api/cache/CategoryCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/tj-api/src/main/java/com/tianji/api/cache/CategoryCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tj-api/src/main/java/com/tianji/api/config/FallbackConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/tj-api/src/main/java/com/tianji/api/config/FallbackConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tj-auth/tj-auth-service/src/main/resources/mapper/RoleMenuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tj-auth/tj-auth-service/src/main/resources/mapper/RedisConstants.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/autoconfigure/mybatis/MybatisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/autoconfigure/mybatis/MybatisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/constants/MqConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/tj-common/src/main/java/com/tianji/common/constants/MqConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tj-learning/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tj-learning/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tj-media/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tj-media/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tj-message/tj-message-service/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tj-message/tj-message-service/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tj-trade/src/main/java/com/tianji/trade/domain/vo/OrderConfirmVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/tj-trade/src/main/java/com/tianji/trade/domain/vo/OrderConfirmVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tj-trade/src/main/java/com/tianji/trade/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/tj-trade/src/main/java/com/tianji/trade/service/impl/OrderServiceImpl.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="hotfix-delete-order-error" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../resource/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\resource\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="delegateBuildToMaven" value="true" />
+    <option name="jreName" value="11" />
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="2qWGWbiBHGRaqXwN9r7W9xxu9nS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2614841" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tianji.trade.domain.dto" />
+      <recent name="com.tianji.api.client.promotion.fallback" />
+      <recent name="com.tianji.api.dto.promotion" />
+      <recent name="com.tianji.promotion.service.impl" />
+      <recent name="com.tianji.promotions" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\xm\tianji\tianji\tj-api\src\main\java\com\tianji\api\dto\promotion" />
+      <recent name="D:\xm\tianji\tianji\tj-promotion\src\main\java\com\tianji\promotion\utils" />
+      <recent name="D:\xm\tianji\tianji\tj-promotion\src\main\java\com\tianji\promotion\domain\dto" />
+      <recent name="D:\xm\tianji\tianji\tj-promotion\src\main\java\com\tianji\promotion\discount" />
+      <recent name="D:\xm\tianji\tianji\tj-promotion\src\main\java\com\tianji\promotion\domain\vo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.PromotionApplication">
+    <configuration name="MyTest.test11" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tj-learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.MyTest" />
+      <option name="METHOD_NAME" value="test11" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tj-learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.MyTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tj-learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.MyTest" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tj-learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.MyTest" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tj-learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.MyTest" />
+      <option name="METHOD_NAME" value="test5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="trade-debug" type="Remote">
+      <module name="tj-trade" />
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" />
+      <option name="HOST" value="192.168.150.101" />
+      <option name="PORT" value="5005" />
+      <option name="AUTO_RESTART" value="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="5005" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="AuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="tj-auth-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tianji.auth.AuthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CourseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="tj-course" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tianji.course.CourseApplication" />
+      <option name="ACTIVE_PROFILES" value="local" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataCenterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="tj-data" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tianji.data.DataCenterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExamApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="tj-exam" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tianji.exam.ExamApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="tj-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tianji.gateway.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LearningApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="tj-learning" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tianji.learning.LearningApplication" />
+      <option name="ACTIVE_PROFILES" value="local" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MediaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="tj-media" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tianji.media.MediaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MessageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="tj-message-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tianji.message.MessageApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="tj-pay-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tianji.pay.PayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PromotionApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="tj-promotion" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tianji.promotion.PromotionApplication" />
+      <option name="ACTIVE_PROFILES" value="local" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PromotionApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="tj-promotion" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tianji.promotion.PromotionApplication" />
+      <option name="ACTIVE_PROFILES" value="local" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemarkApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="tj-remark" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tianji.remark.RemarkApplication" />
+      <option name="ACTIVE_PROFILES" value="local" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="tj-search" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tianji.search.SearchApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TradeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="tj-trade" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tianji.trade.TradeApplication" />
+      <option name="ACTIVE_PROFILES" value="local" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="tj-user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tianji.user.UserApplication" />
+      <option name="ACTIVE_PROFILES" value="local" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XxljobdemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="xxljobdemo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tianji.xxljobdemo.XxljobdemoApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.MyTest.test2" />
+      <item itemvalue="JUnit.MyTest.test3" />
+      <item itemvalue="JUnit.MyTest.test4" />
+      <item itemvalue="JUnit.MyTest.test5" />
+      <item itemvalue="JUnit.MyTest.test11" />
+      <item itemvalue="Remote.trade-debug" />
+      <item itemvalue="Spring Boot.AuthApplication" />
+      <item itemvalue="Spring Boot.CourseApplication" />
+      <item itemvalue="Spring Boot.DataCenterApplication" />
+      <item itemvalue="Spring Boot.ExamApplication" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
+      <item itemvalue="Spring Boot.LearningApplication" />
+      <item itemvalue="Spring Boot.MediaApplication" />
+      <item itemvalue="Spring Boot.MessageApplication" />
+      <item itemvalue="Spring Boot.PayApplication" />
+      <item itemvalue="Spring Boot.PromotionApplication" />
+      <item itemvalue="Spring Boot.RemarkApplication" />
+      <item itemvalue="Spring Boot.SearchApplication" />
+      <item itemvalue="Spring Boot.TradeApplication" />
+      <item itemvalue="Spring Boot.UserApplication" />
+      <item itemvalue="Spring Boot.XxljobdemoApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MyTest.test11" />
+        <item itemvalue="JUnit.MyTest.test5" />
+        <item itemvalue="JUnit.MyTest.test4" />
+        <item itemvalue="JUnit.MyTest.test3" />
+        <item itemvalue="JUnit.MyTest.test2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="31430abb-5e4e-427a-8f41-e0e6dc7c2ed8" name="Default Changelist" comment="" />
+      <created>1734770949351</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1734770949351</updated>
+      <workItem from="1734770953744" duration="13251000" />
+      <workItem from="1735129500855" duration="3881000" />
+      <workItem from="1735138957546" duration="159000" />
+      <workItem from="1735139140536" duration="432000" />
+      <workItem from="1735139593842" duration="744000" />
+      <workItem from="1735172767386" duration="2919000" />
+      <workItem from="1735187008611" duration="77725000" />
+      <workItem from="1735441972190" duration="49215000" />
+      <workItem from="1735621487696" duration="5517000" />
+      <workItem from="1735629052907" duration="11805000" />
+      <workItem from="1735727903864" duration="8619000" />
+      <workItem from="1735798939416" duration="1535000" />
+      <workItem from="1735882763608" duration="15781000" />
+      <workItem from="1736084102510" duration="8976000" />
+      <workItem from="1736162070180" duration="31512000" />
+      <workItem from="1736311595995" duration="30977000" />
+      <workItem from="1736496261427" duration="1803000" />
+      <workItem from="1736836138671" duration="7907000" />
+      <workItem from="1736945799447" duration="6177000" />
+      <workItem from="1736952713241" duration="1604000" />
+      <workItem from="1736989725342" duration="52827000" />
+      <workItem from="1737794745539" duration="588000" />
+      <workItem from="1738811705976" duration="4289000" />
+      <workItem from="1738997244820" duration="2968000" />
+      <workItem from="1739071104280" duration="2862000" />
+      <workItem from="1739243227106" duration="2964000" />
+      <workItem from="1739599635901" duration="3544000" />
+      <workItem from="1739678509860" duration="13095000" />
+      <workItem from="1739768193622" duration="4114000" />
+      <workItem from="1739857252837" duration="326000" />
+      <workItem from="1739857691479" duration="2887000" />
+    </task>
+    <task id="LOCAL-00001" summary="删除订单bug">
+      <created>1734835698272</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1734835698272</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="删除订单bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除订单bug" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="267" y="19" key="#Inspections" timestamp="1735913582101">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="267" y="19" key="#Inspections/0.0.1280.680@0.0.1280.680" timestamp="1735913582101" />
+    <state x="233" y="0" key="#Intentions" timestamp="1735799973893">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="0" key="#Intentions/0.0.1280.680@0.0.1280.680" timestamp="1735799973893" />
+    <state x="121" y="0" key="#Project_Structure" timestamp="1736090090466">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="121" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1736090090466" />
+    <state x="153" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1737080523925">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="75" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1736316185612" />
+    <state x="153" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1737080523925" />
+    <state x="669" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1737003191378">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="446" y="46" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1736949428370" />
+    <state x="669" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1737003191378" />
+    <state x="557" y="133" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1737081844911">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1736089905531" />
+    <state x="557" y="133" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1737081844911" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1736238385577">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1736238385577" />
+    <state width="1877" height="296" key="GridCell.Tab.0.bottom" timestamp="1737117368542">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1877" height="296" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1737117368542" />
+    <state width="1877" height="322" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1737099602852" />
+    <state width="1877" height="296" key="GridCell.Tab.0.center" timestamp="1737117368542">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1877" height="296" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1737117368542" />
+    <state width="1877" height="322" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1737099602852" />
+    <state width="1877" height="296" key="GridCell.Tab.0.left" timestamp="1737117368541">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1877" height="296" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1737117368541" />
+    <state width="1877" height="322" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1737099602852" />
+    <state width="1877" height="296" key="GridCell.Tab.0.right" timestamp="1737117368542">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1877" height="296" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1737117368542" />
+    <state width="1877" height="322" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1737099602852" />
+    <state width="1877" height="296" key="GridCell.Tab.1.bottom" timestamp="1737117368542">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1877" height="296" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1737117368542" />
+    <state width="1877" height="322" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1737099602853" />
+    <state width="1877" height="296" key="GridCell.Tab.1.center" timestamp="1737117368542">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1877" height="296" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1737117368542" />
+    <state width="1877" height="322" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1737099602852" />
+    <state width="1877" height="296" key="GridCell.Tab.1.left" timestamp="1737117368542">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1877" height="296" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1737117368542" />
+    <state width="1877" height="322" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1737099602852" />
+    <state width="1877" height="296" key="GridCell.Tab.1.right" timestamp="1737117368542">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1877" height="296" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1737117368542" />
+    <state width="1877" height="322" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1737099602852" />
+    <state width="1877" height="296" key="GridCell.Tab.2.bottom" timestamp="1737117368543">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1877" height="296" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1737117368543" />
+    <state width="1877" height="296" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1737084379717" />
+    <state width="1877" height="296" key="GridCell.Tab.2.center" timestamp="1737117368542">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1877" height="296" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1737117368542" />
+    <state width="1877" height="296" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1737084379716" />
+    <state width="1877" height="296" key="GridCell.Tab.2.left" timestamp="1737117368542">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1877" height="296" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1737117368542" />
+    <state width="1877" height="296" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1737084379716" />
+    <state width="1877" height="296" key="GridCell.Tab.2.right" timestamp="1737117368542">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1877" height="296" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1737117368542" />
+    <state width="1877" height="296" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1737084379717" />
+    <state x="221" y="75" key="IDE.errors.dialog" timestamp="1735139789004">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="221" y="75" key="IDE.errors.dialog/0.0.1280.680@0.0.1280.680" timestamp="1735139789004" />
+    <state x="171" y="0" key="Maven.ArtifactSearchDialog" timestamp="1735540624326">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="171" y="0" key="Maven.ArtifactSearchDialog/0.0.1280.680@0.0.1280.680" timestamp="1735540624326" />
+    <state x="121" y="51" key="MergeDialog" timestamp="1734772361001">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="121" y="51" key="MergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1734772361001" />
+    <state x="182" y="0" key="SettingsEditor" timestamp="1736238497889">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1736090368818" />
+    <state x="182" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1736238497889" />
+    <state x="233" y="60" key="Vcs.Push.Dialog.v2" timestamp="1734836212581">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="60" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1734836212581" />
+    <state x="349" y="232" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1736089987328">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="349" y="232" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1280.680@0.0.1280.680" timestamp="1736089987328" />
+    <state x="183" y="96" width="941" height="584" key="find.popup" timestamp="1739695128191">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="183" y="96" width="941" height="584" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1739695128191" />
+    <state x="275" y="146" width="1412" height="894" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1735542787898" />
+    <state x="404" y="53" key="git4idea.branch.GitSmartOperationDialog" timestamp="1734772335950">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="404" y="53" key="git4idea.branch.GitSmartOperationDialog/0.0.1280.680@0.0.1280.680" timestamp="1734772335950" />
+    <state x="495" y="182" width="1251" height="728" key="new project wizard" timestamp="1736233791761">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="28" y="1" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1736090344035" />
+    <state x="495" y="182" width="1251" height="728" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1736233791761" />
+    <state x="370" y="97" key="refactoring.ChangeSignatureDialog" timestamp="1735261434086">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="370" y="97" key="refactoring.ChangeSignatureDialog/0.0.1280.680@0.0.1280.680" timestamp="1735261434086" />
+    <state x="297" y="151" key="run.anything.popup" timestamp="1736346543405">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1736346543405" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1735624281521">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1735624281521" />
+  </component>
+</project>
